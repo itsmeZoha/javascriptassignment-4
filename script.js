@@ -1,4 +1,4 @@
-// let userName = prompt("Please Enter your name to visit our website? ") 
+let userName = prompt("Please Enter your name to visit our website? ") 
 window.onload = function(){
    let message ="Good Day"
 //    let firstName = prompt("Please Enter Your First Name?")
@@ -164,5 +164,5 @@ function replaceWord(){
 }
 //----------------------Emoji Buttons--------------------------------//
 function addEmoji(para1){
-   document.getElementById('output').innerHTML += para1
+   document.getElementById('output').innerHTML += para1 
 }
